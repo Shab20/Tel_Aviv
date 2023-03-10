@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{{ vehicle }}</h1>
+  <p>Rental status: {{ rental_status }}</p>
+  <p>Vehicle Type: {{ vehicle.vehicle_type }}</p>
+  <p>Size: {{ vehicle.size }}</p>
+  <p>Real cost: {{ vehicle.real_cost }}</p>
+{% endblock %}

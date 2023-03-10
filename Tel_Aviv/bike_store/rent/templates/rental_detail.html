@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{{ object.customer.name }}'s Rental</h1>
+  <p>Customer Details:</p>
+  <ul>
+    <li>Name: {{ object.customer.name }}</li>
+    <li>Email: {{ object.customer.email }}</li>
+    <li>Phone: {{ object.customer.phone }}</li>
+    <li>Address: {{ object.customer.address }}</li>
+  </ul>
+{% endblock %}
